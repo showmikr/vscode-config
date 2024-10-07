@@ -133,7 +133,6 @@
     "*.py": "python"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "remote.SSH.configFile": "C:\\Users\\Showmik\\.ssh\\github_ssh_key",
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1,
     "asvetliakov.vscode-neovim": 1
