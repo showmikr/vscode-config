@@ -1,0 +1,7 @@
+globalStorage/
+History/
+snippets/
+workspaceStorage/
+
+# ignore jj folder
+.jj/

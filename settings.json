@@ -1,0 +1,151 @@
+{
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.iconTheme": "bearded-icons",
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "editor.cursorSurroundingLines": 16,
+  "editor.fontFamily": "FantasqueSansM Nerd Font Mono, Iosevka Nerd Font Mono Regular, JetBrainsMono Nerd Font Mono, Consolas Nerd Font Mono, Mononoki Nerd Font Mono Regular, Comic Mono, MonaSpiceNe Nerd Font Mono, CaskaydiaCove Nerd Font Mono, 'Courier New', monospace",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  "editor.fontVariations": true,
+  "editor.lineHeight": 0,
+  "editor.cursorBlinking": "solid",
+  "workbench.colorTheme": "Monokai Pro",
+  "editor.occurrencesHighlight": "off",
+  "files.eol": "\n",
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+
+  // VSCode Vim Extension Settings
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    },
+    {
+      "before": ["<C-d>"],
+      "after": ["2", "0", "g", "j"]
+    },
+    {
+      "before": ["<C-u>"],
+      "after": ["2", "0", "g", "k"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "b", "d"],
+      "commands": [":bd"]
+    },
+    {
+      "before": ["<S-h>"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<leader>", "t", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["<leader>", "<space>"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<C-w>", "l"],
+      "commands": ["workbench.action.navigateRight"]
+    },
+    {
+      "before": ["<C-w>", "h"],
+      "commands": ["workbench.action.navigateLeft"]
+    },
+    {
+      "before": ["<C-w>", "j"],
+      "commands": ["workbench.action.navigateDown"]
+    },
+    {
+      "before": ["<C-w>", "k"],
+      "commands": ["workbench.action.navigateUp"]
+    },
+    {
+      "before": ["<leader>", "z"],
+      "commands": ["workbench.action.toggleZenMode"]
+    },
+    {
+      "before": ["<leader>", "s", "s"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["C-f"],
+      "commands": ["cursorPageDown"]
+    },
+    {
+      "before": ["C-b"],
+      "commands": ["cursorPageUp"]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-w>", "l"],
+      "commands": ["workbench.action.navigateRight"]
+    },
+    {
+      "before": ["<C-w>", "h"],
+      "commands": ["workbench.action.navigateLeft"]
+    },
+    {
+      "before": ["<C-w>", "j"],
+      "commands": ["workbench.action.navigateDown"]
+    },
+    {
+      "before": ["<C-w>", "k"],
+      "commands": ["workbench.action.navigateUp"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.highlightedyank.enable": true,
+  "vim.foldfix": true,
+  "vim.sneak": true,
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono Regular, Rec Mono Semicasual",
+  "terminal.integrated.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+    "*.py": "python"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "remote.SSH.configFile": "C:\\Users\\Showmik\\.ssh\\github_ssh_key",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+    "asvetliakov.vscode-neovim": 1
+  },
+  "diffEditor.renderSideBySide": true,
+  "window.confirmSaveUntitledWorkspace": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "explorer.confirmDelete": false,
+  "cody.telemetry.level": "off",
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "compact",
+
+  // Disable vscode telemetry
+  "telemetry.telemetryLevel": "off"
+}
