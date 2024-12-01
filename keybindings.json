@@ -1,4 +1,4 @@
-// Place your key bindings in this file to override the defaultsauto[]
+// Place your key bindings in this file to override the defaults
 [
   {
     "key": "ctrl+/",
@@ -73,6 +73,9 @@
 
   }
 
+  /* vscode-neovim (and germanScroll) related configuration.
+     Uncomment when you enable vscode-neovim and germanScroll
+  */
   // {
   //   "key": "ctrl+u",
   //   "command": "-vscode-neovim.ctrl-u",
