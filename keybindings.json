@@ -10,19 +10,67 @@
     "command": "-workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
+
+  // Remap Ctrl-n and Ctrl-p to next/prev select in menus
   {
     "key": "ctrl+n",
     "command": "-workbench.action.files.newUntitledFile"
   },
   {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
     "key": "ctrl+n",
-    "command": "quickInput.next",
-    "when": "inQuickInput && quickInputType == 'quickPick'"
+    "command": "list.focusDown",
+    "when": "listFocus && !inputFocus"
   },
   {
     "key": "ctrl+p",
-    "command": "quickInput.previous",
-    "when": "inQuickInput && quickInputType == 'quickPick'"
+    "command": "list.focusUp",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "list.focusDown",
+    "when": "quickInputFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "list.focusUp",
+    "when": "quickInputFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "selectNextCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevCodeAction",
+    "when": "codeActionMenuVisible"
+  },
+
   }
 
   // {
