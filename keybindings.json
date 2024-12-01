@@ -72,6 +72,18 @@
     "when": "codeActionMenuVisible"
   },
 
+  // Ctrl-c The Ultimate Escape Hatch
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.closeQuickOpen",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "list.closeFind",
+    "when": "listFocus && !inputFocus"
+  },
+
   }
 
   /* vscode-neovim (and germanScroll) related configuration.
