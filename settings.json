@@ -121,6 +121,7 @@
     }
   ],
   "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
   "vim.highlightedyank.enable": true,
   "vim.foldfix": true,
   "vim.sneak": true,
