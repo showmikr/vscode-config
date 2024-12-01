@@ -100,6 +100,18 @@
     {
       "before": ["C-b"],
       "commands": ["cursorPageUp"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.codeAction"]
+    },
+    {
+      "before": ["<leader>", "c", "r"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
     }
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
